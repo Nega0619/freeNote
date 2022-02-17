@@ -6,10 +6,9 @@ lms에서 문자열을 복사한 후 주피터 노트북에 넣으면 `- `이거
 """
 
 multi_string = """
-칼럼 종류: Date, Open, High, Low, Close, Adj Close, Volume
-날짜별로 시작가(Open), 최고가(High), 최저가(Low), 종가(Close), 수정종가(Adj Close), 거래량(Volume)이 저장되어 있는 것을 확인할 수 있습니다.
-우리는 종가(Close)만 사용하겠습니다. (주식 시장은 정해진 시간 동안만 거래가 가능합니다. 종가란 하루의 장이 마감하였을 때의 가격입니다.)
-
+ARIMA 모델 빌드와 훈련
+모델 테스트 및 플로팅
+최종 예측 모델 정확도 측정(MAPE)
 """
 
 splited_str = multi_string.split('\n')
