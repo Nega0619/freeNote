@@ -147,18 +147,18 @@ urllib3                       1.26.7
 validators                    0.18.2
 wget                          3.2
 """
-string14="""
-"""
-string14="""
-"""
-string14="""
-"""
-string14="""
-"""
-string14="""
-"""
+# string14="""
+# """
+# string14="""
+# """
+# string14="""
+# """
+# string14="""
+# """
+# string14="""
+# """
 
-splited_str = string5.split('\n')
+splited_str = string14.split('\n')
 
 
 result = ""

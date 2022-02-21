@@ -23,14 +23,14 @@ musi_pattern=re.compile('MUSHI')
 
 
 # 파일 경로를 입력하세요.
-file_path=r"D:\Github\tistoryPostings\artificial Intelligence\AIFFEL"
+file_path=r'D:\Github\Nega0619.github.io\_posts'
 
 file_list = os.listdir(file_path)
 for f in file_list:
     pass
     src = os.path.join(file_path, f)
     if (finised_file_pattern.match(f) != None): continue
-    if (musi_pattern.match(f) != None): continue
+    if (f.find('MUSHI')!=-1): continue
     file_time = os.path.getctime(src)
     fts = str(datetime.datetime.fromtimestamp(file_time))
     dst = fts[:10]+'-'+f
