@@ -6,16 +6,24 @@ lms에서 문자열을 복사한 후 주피터 노트북에 넣으면 `- `이거
 """
 
 multi_string = """
-ARIMA 모델 빌드와 훈련
-모델 테스트 및 플로팅
-최종 예측 모델 정확도 측정(MAPE)
+100 : 정치
+101 : 경제
+102 : 사회
+103 : 생활/문화
+104 : 세계
+105 : IT/과학
+110 : 오피니언
 """
+
 
 splited_str = multi_string.split('\n')
 
 tobe_copy=""
 for str in (splited_str[1:-1]):
     pass
+    if(str==""):
+        tobe_copy+='\n\n'
+        continue
     # print(str)
     # enmerate하려다가 때려침 ㅎ_ㅎ
     # splited_str[idx] = '- '+str
