@@ -7,21 +7,6 @@ import re
 finised_file_pattern = re.compile('\d\d\d\d-\d\d-\d\d-')
 musi_pattern=re.compile('MUSHI')
 
-# test="""
-# 2020-02-00-가나다
-# 랄랄랄ㄹ라
-# 2020-22-44-ㅅㅎㅁㄷ
-# 23ㄱㄷㅇㅁㅈㄷㄹ
-# ㄻㅈㄷ2323-44-ㄻㄷㄻㄷㄹ
-# """
-# splited_list = test.split('\n')
-
-# for s in splited_list:
-#     if(pattern.match(s) != None):
-#         continue
-#     print(s)
-
-
 # 파일 경로를 입력하세요.
 file_path=r'D:\Github\Nega0619.github.io\_posts'
 
@@ -37,4 +22,3 @@ for f in file_list:
     print(dst)
     dst = os.path.join(file_path,dst)
     os.rename(src,dst)
-
