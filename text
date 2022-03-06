@@ -1,0 +1,13 @@
+In a Markov decision process, the probabilities given by p completely characterize the
+environment’s dynamics. That is, the probability of each possible value for St and Rt
+depends only on the immediately preceding state and action, St1 and At1, and, given
+them, not at all on earlier states and actions. This is best viewed a restriction not on the
+decision process, but on the state. The state must include information about all aspects
+of the past agent–environment interaction that make a di↵erence for the future. If it
+does, then the state is said to have the Markov property. We will assume the Markov
+property throughout this book, though starting in Part II we will consider approximation
+methods that do not rely on it, and in Chapter 17 we consider how a Markov state can
+be learned and constructed from non-Markov observations.
+From the four-argument dynamics function, p, one can compute anything else one might
+want to know about the environment, such as the state-transition probabilities (which we
+denote, with a slight abuse of notation, as a three-argument function p : S⇥S⇥A ! [0, 1]),
