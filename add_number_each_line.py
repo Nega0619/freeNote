@@ -6,15 +6,9 @@ lms에서 문자열을 복사한 후 주피터 노트북에 넣으면 `- `이거
 """
 
 multi_string = """
-들어가며
-기계가 읽을 수 있나요?
-어떤 과정으로 읽을까요?
-딥러닝 문자인식의 시작
-사진 속 문자 찾아내기 - detection
-사진 속 문자 읽어내기 - recognition
-keras-ocr 써보기
-테서랙트 써보기
-프로젝트 : 다양한 OCR 모델 비교하기
+Hi, my name is John. ("Hi," "my", ..., "John." 으로 분리됨) - 문장부호
+First, open the first chapter. (First와 first를 다른 단어로 인식) - 대소문자
+He is a ten-year-old boy. (ten-year-old를 한 단어로 인식) - 특수문자
 """
 
 splited_str = multi_string.split('\n')
