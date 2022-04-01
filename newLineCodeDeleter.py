@@ -3,6 +3,7 @@
 import clipboard
 
 # get texts
+# test
 f = open('text', 'r', encoding='UTF8')
 
 result = ""
