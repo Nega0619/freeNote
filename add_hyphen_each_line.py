@@ -6,9 +6,58 @@ lms에서 문자열을 복사한 후 주피터 노트북에 넣으면 `- `이거
 """
 
 multi_string = """
-언어 모델이 발전해 온 과정을 개략적으로 파악한다.
-기존 RNN 기법이 번역에서 보인 한계를 파악하고, 이를 개선한 Seq2seq를 이해한다.
-Seq2seq를 발전시킨 Attention에 대해 알아본다.
+영화 구분
+
+synopsis_art.txt : 예술영화
+
+synopsis_gen.txt : 일반영화(상업영화)
+
+그 외는 독립영화 등으로 분류됩니다.
+
+장르 구분
+
+synopsis_SF.txt: SF
+
+synopsis_가족.txt: 가족
+
+synopsis_공연.txt: 공연
+
+synopsis_공포(호러).txt: 공포(호러)
+
+synopsis_기타.txt: 기타
+
+synopsis_다큐멘터리.txt: 다큐멘터리
+
+synopsis_드라마.txt: 드라마
+
+synopsis_멜로로맨스.txt: 멜로로맨스
+
+synopsis_뮤지컬.txt: 뮤지컬
+
+synopsis_미스터리.txt: 미스터리
+
+synopsis_범죄.txt: 범죄
+
+synopsis_사극.txt: 사극
+
+synopsis_서부극(웨스턴).txt: 서부극(웨스턴)
+
+synopsis_성인물(에로).txt: 성인물(에로)
+
+
+synopsis_스릴러.txt: 스릴러
+
+synopsis_애니메이션.txt: 애니메이션
+
+synopsis_액션.txt: 액션
+
+synopsis_어드벤처.txt: 어드벤처
+
+synopsis_전쟁.txt: 전쟁
+
+synopsis_코미디.txt: 코미디
+
+synopsis_판타지.txt: 판타지
 """
 
 
