@@ -6,58 +6,10 @@ lms에서 문자열을 복사한 후 주피터 노트북에 넣으면 `- `이거
 """
 
 multi_string = """
-영화 구분
-
-synopsis_art.txt : 예술영화
-
-synopsis_gen.txt : 일반영화(상업영화)
-
-그 외는 독립영화 등으로 분류됩니다.
-
-장르 구분
-
-synopsis_SF.txt: SF
-
-synopsis_가족.txt: 가족
-
-synopsis_공연.txt: 공연
-
-synopsis_공포(호러).txt: 공포(호러)
-
-synopsis_기타.txt: 기타
-
-synopsis_다큐멘터리.txt: 다큐멘터리
-
-synopsis_드라마.txt: 드라마
-
-synopsis_멜로로맨스.txt: 멜로로맨스
-
-synopsis_뮤지컬.txt: 뮤지컬
-
-synopsis_미스터리.txt: 미스터리
-
-synopsis_범죄.txt: 범죄
-
-synopsis_사극.txt: 사극
-
-synopsis_서부극(웨스턴).txt: 서부극(웨스턴)
-
-synopsis_성인물(에로).txt: 성인물(에로)
-
-
-synopsis_스릴러.txt: 스릴러
-
-synopsis_애니메이션.txt: 애니메이션
-
-synopsis_액션.txt: 액션
-
-synopsis_어드벤처.txt: 어드벤처
-
-synopsis_전쟁.txt: 전쟁
-
-synopsis_코미디.txt: 코미디
-
-synopsis_판타지.txt: 판타지
+텍스트 데이터를 머신러닝 입출력용 수치데이터로 변환하는 과정을 이해한다.
+RNN의 특징을 이해하고 시퀀셜한 데이터를 다루는 방법을 이해한다.
+1-D CNN으로도 텍스트를 처리할 수 있음을 이해한다.
+IMDB와 네이버 영화리뷰 데이터셋을 이용한 영화리뷰 감성 분류 실습을 진행한다.
 """
 
 
