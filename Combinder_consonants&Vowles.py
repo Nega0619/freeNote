@@ -2,7 +2,8 @@
 import os
 import unicodedata
 
-file_path=r"D:\GitHub\Aiffel_nodes_fd_1-20"
+# file_path=r"D:\GitHub\Aiffel_nodes_fd_1-20"
+file_path=r"D:\Github\NLP"
 file_list = os.listdir(file_path)
 
 for f in file_list:
