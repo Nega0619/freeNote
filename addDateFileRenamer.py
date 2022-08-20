@@ -8,7 +8,8 @@ finised_file_pattern = re.compile('\d\d\d\d-\d\d-\d\d-')
 musi_pattern=re.compile('MUSHI')
 
 # 파일 경로를 입력하세요.
-file_path=r'D:\Github\Nega0619.github.io\_posts'
+file_path=r'D:\Github\path-finding-rl\새 폴더'
+
 
 file_list = os.listdir(file_path)
 for f in file_list:
@@ -18,7 +19,8 @@ for f in file_list:
     if (f.find('MUSHI')!=-1): continue
     file_time = os.path.getctime(src)
     fts = str(datetime.datetime.fromtimestamp(file_time))
-    dst = fts[:10]+'-'+f
+    # dst = fts[:10]+'-'+f
+    dst = f+r'.ipynb'
     print(dst)
     dst = os.path.join(file_path,dst)
     os.rename(src,dst)
