@@ -1,10 +1,14 @@
 import os
 
-target_path = '/home/hwi/github/data/VQIS_PoC/test/normal'
+target_path = '/home/hwi/Downloads/VQIS-POC Image data/VQIS/VQIS_POR_TEST'
 
 file_list = os.listdir(target_path)
 for f in file_list:
-    # print(f)
-    src = os.path.join(target_path, f)
-    new_file_name = target_path+'/normal_'+f
-    os.rename(src,new_file_name)
+    
+    aft = os.path.join(target_path, f.replace('JPG', 'jpg'))
+    pre = os.path.join(target_path, f)
+    # print(pre)
+    # print(aft)
+    # break
+    os.rename(pre,aft)
+    
